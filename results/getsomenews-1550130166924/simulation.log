@@ -1,0 +1,21 @@
+RUN	my.gatling.simulation.GetSomeNews		getsomenews	1550130166924	 	2.0
+USER	>>> opening_googlenews_homepage >>>	1	START	1550130168439	1550130168439
+USER	>>> opening_googlenews_homepage >>>	2	START	1550130168499	1550130168499
+USER	>>> opening_googlenews_homepage >>>	3	START	1550130168501	1550130168501
+USER	>>> opening_googlenews_homepage >>>	4	START	1550130168504	1550130168504
+USER	>>> opening_googlenews_homepage >>>	5	START	1550130168579	1550130168579
+REQUEST	>>> opening_googlenews_homepage >>>	1		Get some google news	1550130168456	1550130168818	OK	 
+REQUEST	>>> opening_googlenews_homepage >>>	3		Get some google news	1550130168503	1550130168806	OK	 
+REQUEST	>>> opening_googlenews_homepage >>>	2		Get some google news	1550130168500	1550130168812	OK	 
+REQUEST	>>> opening_googlenews_homepage >>>	4		Get some google news	1550130168504	1550130168884	OK	 
+REQUEST	>>> opening_googlenews_homepage >>>	5		Get some google news	1550130168579	1550130168899	OK	 
+REQUEST	>>> opening_googlenews_homepage >>>	2		Get some google news Redirect 1	1550130168840	1550130170099	OK	 
+USER	>>> opening_googlenews_homepage >>>	2	END	1550130168499	1550130170230
+REQUEST	>>> opening_googlenews_homepage >>>	3		Get some google news Redirect 1	1550130168840	1550130170369	OK	 
+USER	>>> opening_googlenews_homepage >>>	3	END	1550130168501	1550130170401
+REQUEST	>>> opening_googlenews_homepage >>>	1		Get some google news Redirect 1	1550130168840	1550130170556	OK	 
+USER	>>> opening_googlenews_homepage >>>	1	END	1550130168439	1550130170572
+REQUEST	>>> opening_googlenews_homepage >>>	4		Get some google news Redirect 1	1550130168885	1550130170944	OK	 
+USER	>>> opening_googlenews_homepage >>>	4	END	1550130168504	1550130170975
+REQUEST	>>> opening_googlenews_homepage >>>	5		Get some google news Redirect 1	1550130168899	1550130172070	OK	 
+USER	>>> opening_googlenews_homepage >>>	5	END	1550130168579	1550130172106

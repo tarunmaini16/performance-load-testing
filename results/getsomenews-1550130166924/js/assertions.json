@@ -1,0 +1,10 @@
+{
+  "simulation": "my.gatling.simulation.GetSomeNews",
+  "simulationId": "getsomenews",
+  "start": 1550130166924,
+  "description": "",
+  "scenarios": [">>> opening_googlenews_homepage >>>"],
+  "assertions": [
+
+  ]
+}
