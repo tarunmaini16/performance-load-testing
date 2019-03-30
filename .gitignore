@@ -1,0 +1,7 @@
+.idea/
+*.iml
+/libraries
+project/
+target/
+target/test-classes
+.DS_Store
